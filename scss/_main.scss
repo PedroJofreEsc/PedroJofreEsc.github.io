@@ -1,15 +1,14 @@
-
 * {
     padding: 0%;
     margin: 0%;
 }
 
-.original{
+.original {
 
     background-image: radial-gradient(circle, #505050, #1f1f1f, #000000);
     z-index: 2;
     height: 100vh;
-    width: map-get($ancho,full) ;
+    width: map-get($ancho, full);
     display: flex;
     position: absolute;
     align-items: center;
@@ -23,35 +22,38 @@
         transform: rotate(180deg);
 
 
-        &:hover{
-            @include encendido_apagado(5s,yellow);
+        &:hover {
+            @include encendido_apagado(5s, yellow);
         }
     }
+
     p {
         margin-top: $espacio_Caja;
         font-size: large;
 
     }
-    .originallink {
-        width: map-get($ancho,30);
-        
-        &:hover{
-            @include encendido_apagado(5s,yellow);
+
+    .original_Link {
+        width: map-get($ancho, 30);
+
+        &:hover {
+            @include encendido_apagado(5s, yellow);
         }
     }
 }
 
 
-.ampolleta--prendida{
+.ampolleta--prendida {
     font-size: map-get($ancho, ampolleta_encendida);
     color: yellow;
     text-align: center;
-    &:hover{
-        @include encendido_apagado(5s,grey);
+
+    &:hover {
+        @include encendido_apagado(5s, grey);
     }
 }
 
-.foto{
+.foto {
     font-size: 8vw;
     color: yellow;
     text-align: center;
@@ -69,7 +71,7 @@ body {
     background-image: radial-gradient(circle, #505050, #1f1f1f, #000000);
     z-index: 2;
     height: 100vh;
-    width: map-get($ancho,full);
+    width: map-get($ancho, full);
     display: flex;
     position: absolute;
     align-items: center;
@@ -94,11 +96,10 @@ footer {
 .tecleado {
     font-family: Calibri;
     color: rgb(16, 17, 14);
-    width: map-get($ancho,inicio_teclear);
+    width: map-get($ancho, inicio_teclear);
     overflow: hidden;
     white-space: nowrap;
     border-right: .15em solid #18BDEC;
     animation: blink 1s steps(1) infinite;
     animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
 }
-
