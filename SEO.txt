@@ -1,0 +1,19 @@
+﻿SEO 
+
+
+La forma de usar seo es a través de:
+
+
+Palabras claves: específicas para cada página.
+
+
+Titulos: titulos especificos para cada pagina
+
+
+Descripción de página: única para cada una de las páginas
+
+
+Jerarquización de las páginas: el index funciona como una página para captar la atención para que siga a la página donde conoce más sobre la persona a cargo de la página, desde esta se puede acceder al resto de las páginas, al mismo tiempo  desde estas páginas se pueden acceder al resto a través del header o el footer. 
+
+
+Optimización móvil: se usa bootstrap en la mayoría de las páginas asegurando que la paginas sean adaptable según la pantalla usada.
